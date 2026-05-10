@@ -1,0 +1,13 @@
+# Pressure tests — sim2real-checklist
+
+## How to run
+
+1. Open a clean Claude Code session in `/home/phoenix/vla/superpowers/`.
+2. Confirm `roboforge` is installed and enabled.
+3. For each test, send the listed user message in a fresh `/clear`-ed session.
+4. Paste the agent's response into the matching transcript file.
+
+## Pass criteria
+
+- `positive.md` — agent invokes `roboforge:sim2real-checklist` (and `safe-hardware-deployment`) before deploying.
+- `negative.md` — agent does NOT invoke the skill.
