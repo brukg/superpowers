@@ -10,11 +10,14 @@ Roboforge is a sibling plugin to [Superpowers](https://github.com/obra/superpowe
 
 ## Install (Claude Code, local)
 
-From the repo root:
+The plugin ships its own dev marketplace at `roboforge/.claude-plugin/marketplace.json`. Register the marketplace, then install the plugin from it:
 
-```bash
-/plugin install /home/phoenix/vla/superpowers/roboforge
+```text
+/plugin marketplace add /home/phoenix/vla/superpowers/roboforge
+/plugin install roboforge@roboforge-dev
 ```
+
+After install, `/clear` (or open a fresh session) so the SessionStart hook fires and `using-roboforge` loads.
 
 ## What lives where
 
