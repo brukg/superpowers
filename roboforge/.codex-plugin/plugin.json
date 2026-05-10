@@ -1,0 +1,40 @@
+{
+  "name": "roboforge",
+  "version": "0.1.0",
+  "description": "Robotics-engineer skills: ROS 2, VLA / LeRobot policies, Isaac Lab, manipulation, humanoid WBC, perception, real-hardware deployment discipline.",
+  "author": {
+    "name": "brukg",
+    "email": "bruk@signalbotics.com",
+    "url": "https://github.com/brukg"
+  },
+  "homepage": "https://github.com/brukg/superpowers",
+  "repository": "https://github.com/brukg/superpowers",
+  "license": "MIT",
+  "keywords": [
+    "robotics",
+    "ros2",
+    "vla",
+    "lerobot",
+    "isaac-lab",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Roboforge",
+    "shortDescription": "Robotics skills for coding agents",
+    "longDescription": "Roboforge surfaces robotics-specific skills: ROS 2 patterns, LeRobot/VLA conventions, Isaac Lab workflows, manipulation primitives, humanoid WBC, perception, and the discipline you want before deploying anything on real hardware.",
+    "developerName": "brukg",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Help me set up a ROS 2 node.",
+      "I need to deploy this policy on real hardware."
+    ],
+    "websiteURL": "https://github.com/brukg/superpowers",
+    "brandColor": "#0EA5E9"
+  }
+}

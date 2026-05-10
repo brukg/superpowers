@@ -1,0 +1,7 @@
+{
+  "name": "roboforge",
+  "version": "0.1.0",
+  "description": "Robotics skills plugin for AI coding agents.",
+  "type": "module",
+  "license": "MIT"
+}

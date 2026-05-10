@@ -1,0 +1,10 @@
+{
+  "name": "roboforge",
+  "version": "0.1.0",
+  "description": "Robotics skills for AI coding agents.",
+  "author": {
+    "name": "brukg",
+    "email": "bruk@signalbotics.com"
+  },
+  "license": "MIT"
+}
