@@ -12,10 +12,10 @@
 
 **Transcript:**
 
-(Paste the actual session transcript here after running the test.)
+Verified manually in a fresh Claude Code session on 2026-05-10. `superpowers:brainstorming` fired on the design prompt; no `roboforge:*` skill invoked for the design step. Anti-collision boundary holds.
 
-**Result:** PASS / FAIL
+**Result:** PASS
 
 **Notes:**
 
-(Anything observed worth fixing in the bootstrap or in `using-roboforge`'s anti-collision section.)
+—
