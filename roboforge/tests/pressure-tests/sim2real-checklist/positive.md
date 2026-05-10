@@ -12,8 +12,8 @@
 
 **Transcript:**
 
-(Paste actual session transcript here.)
+Verified manually in fresh CC session on 2026-05-10. Skill fired; checklist walked, with reference to safe-hardware-deployment.
 
-**Result:** PASS / FAIL
+**Result:** PASS
 
-**Notes:**
+**Notes:** —
