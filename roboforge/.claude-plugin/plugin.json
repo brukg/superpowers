@@ -1,0 +1,23 @@
+{
+  "name": "roboforge",
+  "description": "Robotics-engineer skills for AI coding agents: ROS 2, VLA / LeRobot policies, Isaac Lab, manipulation, humanoid WBC, perception, and real-hardware deployment discipline. Sibling to Superpowers core.",
+  "version": "0.1.0",
+  "author": {
+    "name": "brukg",
+    "email": "bruk@signalbotics.com"
+  },
+  "homepage": "https://github.com/brukg/superpowers",
+  "repository": "https://github.com/brukg/superpowers",
+  "license": "MIT",
+  "keywords": [
+    "robotics",
+    "ros2",
+    "vla",
+    "lerobot",
+    "isaac-lab",
+    "manipulation",
+    "humanoid",
+    "perception",
+    "skills"
+  ]
+}
