@@ -1,6 +1,6 @@
 ---
 name: dataset-versioning
-description: Use when about to train, fine-tune, retrain, or append episodes to a dataset used for any learned policy or model. Pins what data the run uses, validates episode integrity, and prevents the "we trained on a different dataset and didn't notice" failure. Required before any `train.py` invocation.
+description: Use when about to train, fine-tune, retrain, append episodes, recompute normalization stats, or change the train/val/test split for any learned policy or model. Required before any `train.py` invocation. Do NOT use for read-only operations on a dataset (loading, plotting, visualizing, browsing episodes, computing summary statistics for inspection) — those don't change model state.
 ---
 
 Most "the policy regressed" incidents are dataset incidents in disguise: an episode was added, a normalization stat shifted, a split leaked, or "the dataset" silently means two different things to two different runs. This checklist makes the dataset state explicit and reproducible before training consumes it.
@@ -15,8 +15,11 @@ Invoke this skill before:
 - Generating a new train/val/test split.
 
 This skill does NOT apply to:
-- Reading or visualizing data (no model state changes).
+- Plotting, visualizing, or browsing dataset contents.
+- Loading a dataset for inspection (e.g. into a notebook to look at it).
+- Computing summary statistics for inspection (not for normalization).
 - Pure sim policy rollouts that don't write to a dataset.
+- Any read-only operation. If the operation cannot change what a future training run sees, this skill does not apply.
 
 ## Required checklist
 
